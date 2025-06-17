@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, pink, lightorange);
+    font-family: sans-serif;
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  h1 {
+    font-size: 2em;
+    text-shadow: 1px 1px 2px gray;
+  }
+
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    background: coral;
+    color: white;
+    cursor: pointer;
+  }
+
+  button:hover {
+    background: tomato;
+  }
